@@ -1,121 +1,93 @@
-BookTable - Restaurant Reservation App
+# BookTable - Restaurant Reservation App
 
-📌 Project Overview
+## 📌 Project Overview
+A solo-built full-stack web application inspired by OpenTable, allowing users to book restaurant tables, leave reviews, and manage listings. The app supports three user roles: **Customer**, **Restaurant Manager**, and **Admin**, each with role-specific capabilities.
 
-A solo-built full-stack web application inspired by OpenTable, allowing users to book restaurant tables, leave reviews, and manage listings. The app supports three user roles: Customer, Restaurant Manager, and Admin, each with role-specific capabilities.
+---
 
-🧑‍💻 Team Name
+## 🧑‍💻 Team Name
+**Solo Dev Squad**
 
-Solo Dev Squad
+## 👤 Team Member
+- Mohibkhan Pathan
 
-👤 Team Member
-
-Mohibkhan Pathan
-
-🔧 Areas of Contribution
-
+## 🔧 Areas of Contribution
 Since this is a solo project, all components were developed and managed by Mohibkhan Pathan:
+- API Design and Implementation
+- Frontend Development (React.js)
+- Backend Development (Flask or Node.js)
+- Database Design and Mock Data Seeding
+- Cloud Deployment on AWS EC2 (Auto-scaled with Load Balancer)
+- Documentation (Scrum Journal, Diagrams, Reports)
+- UI Wireframing and Prototyping
 
-API Design and Implementation
+---
 
-Frontend Development (React.js)
+## 🧩 Features by Role
+### Customer
+- Register/Login
+- Search restaurants by date, time, people, and optionally by location
+- View available restaurants (with details, clickable times)
+- Book a table (+ email/SMS confirmation)
+- Cancel booking
+- View restaurant reviews and location on Google Maps
 
-Backend Development (Flask or Node.js)
+### Restaurant Manager
+- Login (manual registration assumed)
+- Add new listing (name, address, contact, hours, booking times)
+- Update listing info and photos
 
-Database Design and Mock Data Seeding
+### Admin
+- Approve new restaurants
+- Remove existing restaurants
+- View analytics dashboard of reservations
 
-Cloud Deployment on AWS EC2 (Auto-scaled with Load Balancer)
+---
 
-Documentation (Scrum Journal, Diagrams, Reports)
+## 🛠 Tech Stack
+- **Frontend**: React.js (Vite or CRA)
+- **Backend**: Flask / Node.js (Express)
+- **Database**: PostgreSQL or MongoDB
+- **Cloud**: AWS EC2 (Auto Scaling + Load Balancer)
+- **UI Wireframes**: Figma / Draw.io
+- **Deployment & Diagrams**: Lucidchart / Draw.io / AWS Console
 
-UI Wireframing and Prototyping
+---
 
-🧩 Features by Role
+## 📊 Project Artifacts
+### 🗃️ GitHub Project Journal
+- [Link to Scrum Journal](#)
 
-Customer
+### 📈 Product & Sprint Backlog Sheet
+- [Google Sheets Backlog and Burndown Chart](#)
 
-Register/Login
+### 🖼 UI Wireframes
+- [Wireframes Folder/Link](#)
 
-Search restaurants by date, time, people, and optionally by location
+### 🧱 Architecture Diagrams
+- [Component Diagram](#)
+- [Deployment Diagram](#)
 
-View available restaurants (with details, clickable times)
+---
 
-Book a table (+ email/SMS confirmation)
+## ✅ Agile Process
+- Scrum methodology simulated solo
+- Weekly Scrum Reports
+- XP Core Values: **Communication**, **Simplicity**
+- GitHub commits made daily with descriptive messages
 
-Cancel booking
+---
 
-View restaurant reviews and location on Google Maps
+## 📽 Demo Video
+- [Demo Link](#)
 
-Restaurant Manager
+## 🚀 Deployment
+- [Live App on AWS](#)
 
-Login (manual registration assumed)
+---
 
-Add new listing (name, address, contact, hours, booking times)
-
-Update listing info and photos
-
-Admin
-
-Approve new restaurants
-
-Remove existing restaurants
-
-View analytics dashboard of reservations
-
-🛠 Tech Stack
-
-Frontend: React.js (Vite or CRA)
-
-Backend: Flask / Node.js (Express)
-
-Database: PostgreSQL or MongoDB
-
-Cloud: AWS EC2 (Auto Scaling + Load Balancer)
-
-UI Wireframes: Figma / Draw.io
-
-Deployment & Diagrams: Lucidchart / Draw.io / AWS Console
-
-📊 Project Artifacts
-
-🗃️ GitHub Project Journal
-
-Link to Scrum Journal
-
-📈 Product & Sprint Backlog Sheet
-
-Google Sheets Backlog and Burndown Chart
-
-🖼 UI Wireframes
-
-Wireframes Folder/Link
-
-🧱 Architecture Diagrams
-
-Component Diagram
-
-Deployment Diagram
-
-✅ Agile Process
-
-Scrum methodology simulated solo
-
-Weekly Scrum Reports
-
-XP Core Values: Communication, Simplicity
-
-GitHub commits made daily with descriptive messages
-
-📽 Demo Video
-
-Demo Link
-
-🚀 Deployment
-
-Live App on AWS
-
-📁 Folder Structure
-
+## 📁 Folder Structure
+```
 root/
 │
 ├── backend/               # Flask or Node backend
@@ -125,8 +97,10 @@ root/
 ├── db/                    # SQL/Mongo scripts + mock data
 ├── scrum-journal/         # Markdown weekly logs
 ├── README.md              # This file
+```
 
-📬 Contact
+---
 
+## 📬 Contact
 For any inquiries or feedback, contact: mohibkhan949@gmail.com
 
